@@ -10,10 +10,12 @@
       .hint { position: fixed; left: 10px; bottom: 10px; color:#9aa; font: 12px/1.2 monospace; }
       .hint b { color:#d1f; }
     </style>
+    <!-- Phaser via CDN (no build needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.0/dist/phaser.min.js"></script>
   </head>
   <body>
     <div id="game"></div>
     <div class="hint">Controller supported. Defaults — Move: LS/WASD • Basic: <b>A/J</b> • Skill1: <b>X/K</b> • Skill2: <b>Y/L</b> • Dash: <b>B/Space</b> • Confirm: <b>Start/Enter</b></div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/app.js"></script>
   </body>
 </html>
